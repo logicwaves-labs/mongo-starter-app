@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Installing extensions and dependencies...",
+      "type": "shell",
+      "command": "code-server --install-extension formulahendry.code-runner --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension mongodb.mongodb-vscode",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "Running your app...",
+      "type": "shell",
+      "command": "",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}
